@@ -5,5 +5,5 @@ function addElementToBeginningOfArray(chocolateBars, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
-    chocolateBars.unshift(element)
+    chocolateBars.unshift(element);
 }
