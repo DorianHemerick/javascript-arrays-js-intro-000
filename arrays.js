@@ -23,7 +23,7 @@ function accessElementInArray(chocolateBars, index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  chocolateBars.push(element);
+  chocolateBars.push(array);
     return chocolateBars;
 }
 
