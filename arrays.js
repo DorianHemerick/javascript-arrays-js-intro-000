@@ -5,6 +5,15 @@ function addElementToBeginningOfArray(chocolateBars, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
-    chocolateBars.unshift(element);
-      return chocolateBars;
+  chocolateBars.unshift(element);
+    return chocolateBars;
+}
+
+function addElementToEndOfArray(chocolateBars, element){
+  [...chocolateBars, (element)];
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, element){
+  chocolateBars.push(element);
+  return chocolateBars;
 }
